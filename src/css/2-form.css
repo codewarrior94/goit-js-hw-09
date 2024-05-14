@@ -1,0 +1,52 @@
+section {
+    margin-bottom: 50px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+button {
+    width: 95px;
+    height: 40px;
+    border-radius: 8px;
+    font-family: "Montserrat";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.04em;
+    text-align: center;
+    border: none;
+    color: #fff;
+    background-color: #4E75FF;
+}
+
+button:hover {
+    background: #6C8CFF;
+}
+
+label {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    border: 1px;
+    border-radius: 4px;
+    font-family: "Montserrat";
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0.04em;
+    line-height: 24px;
+}
+
+input {
+    width: 360px;
+    height: 40px;
+}
+
+textarea {
+    width: 360px;
+    height: 80px;
+    resize: none;
+}
